@@ -1,0 +1,57 @@
+<html>
+<style>
+    h2{
+      text-align: center;
+    }
+    .card{
+      background-color: aqua;
+      width: 400px;
+      margin: auto;
+      border-radius: 10px;
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      
+    }
+    label{
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: large;
+    }
+    input{
+      margin-bottom: 20px;
+      margin-right: 80px;
+    }
+    button{
+      width: 80px;
+      background-color: lightgreen;
+      color: black;
+      margin-bottom: 10px;
+      
+    }
+    button:hover{
+      transform: scale(1.1);
+      transition: transform 0.2s;
+    }
+  </style>
+
+<head>
+</head>
+
+<body>
+  <h2 >Post Office Finder Using WebApp</h2>
+  <div class="card">
+    
+    <form action="/" method="post" >
+      <label>Location Zip Code:</label> 
+      <input id="pincode" name='pincode' type="text" ><br>
+      <button type="submit">Submit</button>
+      <button>Clear</button>
+      
+    </form>
+  </div>
+</body>
+
+</html>
